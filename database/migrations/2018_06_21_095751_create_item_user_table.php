@@ -6,11 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateItemUserTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+    
     public function up()
     {
         Schema::create('item_user', function (Blueprint $table) {
@@ -25,11 +21,6 @@ class CreateItemUserTable extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('item_user');
