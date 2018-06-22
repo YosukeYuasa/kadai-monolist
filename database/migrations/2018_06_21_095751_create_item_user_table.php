@@ -26,3 +26,4 @@ class CreateItemUserTable extends Migration
         Schema::dropIfExists('item_user');
     }
 }
+
